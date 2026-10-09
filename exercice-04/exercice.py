@@ -9,5 +9,5 @@ ca_total = sum(ca_par_produit.values())
 produit_plus_rentable = max(ca_par_produit, key=ca_par_produit.get)
 
 print(f"{ca_par_produit}")
-print(f"Total : {ca_total}0 euros")
+print(f"Total : {ca_total:.2f} euros")
 print(f"Meilleur produit : {produit_plus_rentable}")
